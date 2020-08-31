@@ -15,8 +15,13 @@
         // only needed if your site is also embedded on embed.example.com and othersite.example.com
         parent: ["jean-christophegagnon.github.io"]
       });
+
+    function changeChannel(){
       var player = embed.getPlayer();
       player.setChannel("lol_woolf");
+    }
+
+    setTimeout(changeChannel, 5555);
     </script>
   </body>
 </html>
